@@ -1,0 +1,205 @@
+/*Common Elements*/
+body {
+    font-size: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 495px;
+    padding-bottom: 0px;
+    margin: 0.1px 0 0.1px 0;
+}
+
+p {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 450;
+    line-height: 2em;
+    padding: 0px;
+    margin: 0 0.5em 0 0.5em;
+}
+
+/* Header */
+header {
+    background: url(StaticStoreFront1/paper.jpg) center 0px;
+    padding: 0em 0 3.2em 1em;
+    margin: 1em;
+    background-size: 100% 100%;
+}
+
+header h2 {
+    color: black;
+    font-size: 6em;
+    padding-left: 380px;
+    padding-top: -100px;
+    margin: 0.1px 0 0.1px 0;
+}
+
+
+#main h1 {
+    color: black;
+    font-size: 4em;
+    padding-left: 50px;
+    margin: 10px 0 0.1px 0;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #FFC300;
+}
+
+#loginMenu {
+    float: right;
+    margin: -1em -0.5em -0.5em 10em;
+    padding: 0.2em .1em .1em -5em;
+    background-color: #B2B3AE;
+    font-size: 1.7em;
+    border-radius: 5px;
+}
+
+#loginMenu li {
+    padding: 0 1em 0 .5em;
+    float: left;
+    font-weight: 550;
+    list-style-type: none;
+}
+
+#loginMenu ul li.acctNav a, nav#loginMenu ul li.acctNav a:visited {
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+#loginMenu:visited {
+    color: white;
+}
+
+nav#loginMenu ul li.acctNav::before, nav#loginMenu ul li input#search::before {
+    content: "|";
+    color: #fcfbe6;
+}
+
+#navMenu {
+    float: left;
+    margin: 1em 60em 0 -.90em;;
+    padding: -50em;
+    background-color: #A6F7EB;
+    font-size: 1.2em;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 1%;
+}
+
+#navMenu li {
+    float: left;
+    padding: 0 5em .5em .5em;
+    margin: 1em -1em .25em .25em;
+    font-weight: 550;
+    font-size: 1.4em;
+    list-style-type: none;
+}
+
+
+.sidebar {
+    float: right;
+    position:relative;
+    display: block;
+    background-color: whitesmoke;
+    border: #A6F7EB solid 3px;
+    width: 250px;
+    margin: 1em -1em 3em 1.5em;
+    padding: 1em 2em 2em 1em;
+}
+
+#main {
+    background-color: whitesmoke;
+    margin: 0 0 2.0em;
+    padding: 1.5em 1.5em 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+}
+
+.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    border: 1px solid #A6B1F7;
+}
+
+.panel img.typeWriter {
+    width: 100%;
+}
+
+#contactUs {
+    float: left;
+    margin: 3em 7em 15em 3em;
+    padding: 60em 3em 3em -5em;
+    background-color: #A6F7EB;
+    font-size: 1.2em;
+    border: 2px solid black;
+}
+
+.messageBoard {
+    
+    margin: 7em 3em 10em 3em;
+    padding: 1em 1em 1em 1em;
+}
+
+.messageBoard#message {
+    text-align: right;
+    margin: 10em 10em 10em 10em;
+    padding: 1em 1em 1em 1em;
+}
+
+.footerMenu {
+    float: left;
+    clear: both;
+    padding: 0 0.5em 0 1em;
+    margin: -10em 1em 2em 55em;
+}
+
+.footerMenu li {
+    float: left;
+    padding: 7em 0.5em 0 1em;
+    margin: -5em .5em 1em -1em;
+    list-style-type: none;
+}
+
+.copy {
+    text-align: center;
+    padding: 50em 0.5em 0 1em;
+    margin: 300em 10em 10em 10em;
+}
+
+button {
+    color: #FFC300;
+    background-color: white;
+    display: inline-block;
+    margin: 0 0.80em 0 0;
+    padding: 0.25em 0.5em;
+    border: #A6F7EB 1px solid;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    border: 1px solid #A6B1F7;
+}
